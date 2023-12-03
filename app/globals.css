@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+.model3 {
+  background-image: url("/assets/model3Home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modelY {
+  background-image: url("/assets/modelYHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modelX {
+  background-image: url("/assets/modelXHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modelS {
+  background-image: url("/assets/modelSHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.panels {
+  background-image: url("/assets/solarpanelsHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.roof {
+  background-image: url("/assets/solarRoofHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wall {
+  background-image: url("/assets/powerWallHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.acc {
+  background-image: url("/assets/accessoriesHome.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  z-index: -1;
+}
